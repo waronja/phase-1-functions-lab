@@ -41,12 +41,12 @@ function calculatesFarePrice(start, destination) {
         fare = 2* (feetTravelled-400);
     }
     else if ( feetTravelled > 2000 && feetTravelled < 2500) {
-        fare = 200;
+        fare = 2500;
     
     }
     else if (feetTravelled > 2500) {
         return "cannot travel that far"
     }
-    return fare
+    return fare/100 
   }
 // console.log (calculatesFarePrice(3,5))

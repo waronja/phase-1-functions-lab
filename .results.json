@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 11,
+    "passes": 13,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-06-07T22:04:01.745Z",
-    "end": "2022-06-07T22:04:02.788Z",
-    "duration": 1043
+    "failures": 0,
+    "start": "2022-06-07T22:14:45.756Z",
+    "end": "2022-06-07T22:14:46.747Z",
+    "duration": 991
   },
   "tests": [
     {
@@ -69,42 +69,30 @@
     {
       "title": "returns distance when destination is below distance",
       "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 256 to equal 2.56",
-        "showDiff": true,
-        "actual": "256",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 256 to equal 2.56\n    at Context.<anonymous> (test\\indexTest.js:81:46)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 200 to equal 25",
-        "showDiff": true,
-        "actual": "200",
-        "expected": "25",
-        "stack": "AssertionError: expected 200 to equal 25\n    at Context.<anonymous> (test\\indexTest.js:87:46)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
@@ -115,34 +103,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 256 to equal 2.56",
-        "showDiff": true,
-        "actual": "256",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 256 to equal 2.56\n    at Context.<anonymous> (test\\indexTest.js:81:46)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "charges 25 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 200 to equal 25",
-        "showDiff": true,
-        "actual": "200",
-        "expected": "25",
-        "stack": "AssertionError: expected 200 to equal 25\n    at Context.<anonymous> (test\\indexTest.js:87:46)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
@@ -203,14 +164,28 @@
     {
       "title": "returns distance when destination is below distance",
       "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
